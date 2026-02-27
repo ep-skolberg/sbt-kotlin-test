@@ -1,3 +1,4 @@
+credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 enablePlugins(kotlin.KotlinPlugin)
 
 organization := "com.foo.bar"

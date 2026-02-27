@@ -1,0 +1,7 @@
+[repositories]
+  local
+  maven-local
+  legacy-ivy-artifactory-releases: https://<artifactory-url>/ivy-releases/, [organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  legacy-mvn-artifactory-releases: https://<artifactory-url>/maven-release/
+  releases: https://<artifactory-url>/releases/
+  external: https://<artifactory-url>/remote-repos/
